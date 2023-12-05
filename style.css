@@ -23,6 +23,7 @@
 
 .overlay::after {
     /* Add content : "X" */
+    place-content: "X";
     /* White text color */
     color: #fff;
     /* Black background color */
