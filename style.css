@@ -37,8 +37,11 @@
     /* Display as a block */
     display: block;
     /* Position absolute */
+    position: absolute;
     /* 1rem from the top */
+    top: 1rem;
     /* 1rem from the right */
+    right: 1rem;
     /* 2rem width */
     /* 2rem height */
     /* White border of 2px */
