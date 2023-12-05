@@ -9,23 +9,7 @@
 <body>
     <h1>JSON</h1>
     <ul x-data="{
-        donnes: [
-            {
-                nom: 'Jean',
-                projet: 'Alpine.js',
-                url: 'https://alpinejs.dev/'
-            },
-            {
-                nom: 'Maxime',
-                projet: 'Tailwind CSS',
-                url: 'https://tailwindcss.com/'
-            },
-            {
-                nom: 'Adam',
-                projet: 'Laravel',
-                url: 'https://laravel.com/'
-            },
-        ]
+        
     }">
         <template x-for="info in donnes">
             <li>
