@@ -28,8 +28,10 @@
         ]
     }">
         <template x-for="info in donnes">
+            <li>
             <span x-text="info.nom">nom</span>
-            <a></a>
+            <a x-ref="info.url" x-text="info.projet">projet</a>
+            </li>
         </template>
     </ul>
 </body>
