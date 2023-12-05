@@ -9,7 +9,10 @@
 <body>
     <h1>JSON</h1>
     <ul x-data="{
-        
+        async donnes() {
+            const resp = await fetch('data.json');
+            return await reps.json();
+        }
     }">
         <template x-for="info in donnes">
             <li>
