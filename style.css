@@ -33,7 +33,7 @@
     /* Centered text */
     text-align: center;
     /* Line height ( idem height ) */
-    line-height: 100%;
+    
     /* Display as a block */
     display: block;
     /* Position absolute */
@@ -47,7 +47,9 @@
     /* 2rem height */
     height: 2rem;
     /* White border of 2px */
+    border: #fff solid 2px;
     /* Rounded border */
+    border-radius: 100%;
 }
 
 .overlay>figure {
