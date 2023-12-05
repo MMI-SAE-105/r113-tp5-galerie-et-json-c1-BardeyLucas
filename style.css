@@ -43,7 +43,9 @@
     /* 1rem from the right */
     right: 1rem;
     /* 2rem width */
+    width: 2rem;
     /* 2rem height */
+    height: 2rem;
     /* White border of 2px */
     /* Rounded border */
 }
