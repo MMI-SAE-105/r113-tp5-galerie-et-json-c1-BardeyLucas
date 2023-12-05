@@ -8,7 +8,7 @@
 <body>
     <h1>JSON</h1>
     <ul x-data="{
-        données: [
+        donnes: [
             {
                 nom: 'Jean',
                 projet: 'Alpine.js',
@@ -26,8 +26,9 @@
             },
         ]
     }">
-        <template x-for="info in données">
-            
+        <template x-for="info in donnes">
+            <span x-text="info.nom">nom</span>
+            <a></a>
         </template>
     </ul>
 </body>
