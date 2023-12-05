@@ -11,7 +11,7 @@
     <ul x-data="{
         async donnes() {
             const resp = await fetch('data.json');
-            return await reps.json();
+            return await resp.json();
         }
     }">
         <template x-for="info in donnes">
