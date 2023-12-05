@@ -33,7 +33,9 @@
     /* Centered text */
     text-align: center;
     /* Line height ( idem height ) */
+    line-height: 100%;
     /* Display as a block */
+    display: block;
     /* Position absolute */
     /* 1rem from the top */
     /* 1rem from the right */
