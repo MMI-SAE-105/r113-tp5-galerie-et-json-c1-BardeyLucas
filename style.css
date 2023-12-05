@@ -23,12 +23,13 @@
 
 .overlay::after {
     /* Add content : "X" */
-    place-content: "X";
+    content: "X";
     /* White text color */
     color: #fff;
     /* Black background color */
     background-color: #000;
     /* Font family "sans-serif" */
+    font-family: sans-serif;
     /* Centered text */
     /* Line height ( idem height ) */
     /* Display as a block */
