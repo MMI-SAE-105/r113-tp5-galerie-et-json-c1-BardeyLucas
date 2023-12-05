@@ -1,5 +1,6 @@
 .overlay {
     /* Sit on top of the page content */
+
     /* Full width (cover the whole page) */
     width: 100%;
     /* Full height (cover the whole page) */
@@ -19,6 +20,8 @@
     /* Use a grid for easy centering */
     display: grid;
     /* Center vertically and horizontally */
+    text-align: center;
+    place-content: center;
 }
 
 .overlay::after {
