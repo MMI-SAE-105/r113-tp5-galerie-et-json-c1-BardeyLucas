@@ -1,6 +1,6 @@
 .overlay {
     /* Sit on top of the page content */
-    place-content: top;
+    position: fixed;
     /* Full width (cover the whole page) */
     width: 100%;
     /* Full height (cover the whole page) */
